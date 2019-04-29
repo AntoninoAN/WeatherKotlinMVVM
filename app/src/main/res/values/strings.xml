@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherAPI</string>
+    <string name="til_hint_please_specify_zip_code">Please specify ZIP code</string>
+    <string name="ckb_txt_ask_me_again_in_4_days">Ask me again in 4 days?</string>
+    <string name="btn_txt_save_zip_code">Save</string>
+    <string name="common_sp_file">UserPrefWeather</string>
+    <string name="sp_zip_code_key">ZIP_CODE_KEY</string>
+    <string name="sp_optional_key">OPTIONAL_KEY</string>
+</resources>
