@@ -1,15 +1,15 @@
-package com.example.toboc.weatherapi.VIew
+package com.example.toboc.weatherapi.view
 
 import android.content.Intent
 
 interface ViewContract{
     interface LandingActivityContract{
         fun checkPreviousUserPref() : Boolean
+        fun getPreviousUserPref()
         fun openSettingsActivity()
+        fun implementBinding()
     }
     interface  SettingsActivityContract{
-        fun readPreviousSP()
-        fun checkIntent(intent : Intent?)
-        fun updateSP(zipCode : String, optional : Boolean)
+        fun updateSP(zipCode : String, optional : Boolean, metrics: Boolean)
     }
 }
